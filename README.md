@@ -1,5 +1,5 @@
 Persistent postgres data
-----------------------
+------------------------
 ```
 mkdir -p ~/docker/postgres115/data
 ```
@@ -11,7 +11,7 @@ touch $HOME/.zsh_history_postgres115
 ```
 
 Create a container
----------------
+------------------
 
 ```
 docker run -p 54321:5432 -it -d --name=postgres115 \
@@ -45,6 +45,7 @@ psql postgres postgres
 ```
 
 Remove a container
+------------------
 
 ```
 docker rm postgres115 -f
