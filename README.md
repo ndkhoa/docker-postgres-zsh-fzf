@@ -29,6 +29,13 @@ Create a new Bash session
 docker exec -it postgres115 bash
 ```
 
+Install curl
+------------
+
+```
+apt-get update && apt-get -y upgrade && apt-get install -y curl
+```
+
 Installation
 ------------
 
